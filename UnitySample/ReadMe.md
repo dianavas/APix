@@ -8,4 +8,4 @@ https://forum.unity.com/threads/webgl-error-in-a-project-using-vuforia.450853/
 https://docs.unity3d.com/500/Documentation/Manual/webgl-building.html
 https://docs.unity3d.com/Manual/PlatformDependentCompilation.html
 
-Status: Not working
+Status: Only works in Unity App
