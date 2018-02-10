@@ -4,33 +4,43 @@
 
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 header{
 	background-color: #F1F1F1;
     text-align: center;
     padding: 40px;
+    border-radius: 10px;
 }
 
 nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #F1F1F1;
+    margin-top: 25px;
+    margin-left: 25%; 
+    margin-right: 25%; 
+
 }
 
 /* How links are displayed */
 nav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: #696969;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+.logo{
+    color: black;
+}
+
 /* Change color on hover */
 nav a:hover {
-    background-color: #ddd;
     color: black;
+    
 }
 
 /* Create three unequal columns that floats next to each other */
@@ -64,7 +74,8 @@ nav a:hover {
 }
 div.gallery {
     margin: 5px;
-    float: left;
+    display: inline-block;
+    vertical-align: top;
     width: 180px;
 }
 
