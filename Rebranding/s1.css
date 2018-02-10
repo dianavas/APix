@@ -1,7 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: sans-serif;
@@ -10,7 +6,7 @@ body {
 header{
 	background-color: #F1F1F1;
     text-align: center;
-    padding: 40px;
+    padding: 2%;
     border-radius: 10px;
 }
 
@@ -22,28 +18,37 @@ nav {
     margin-right: 25%; 
 
 }
+a.logo{
+    color: black;
 
+}
 /* How links are displayed */
-nav a {
+nav a{
     float: left;
-    display: block;
     color: #696969;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 16px ;
     text-decoration: none;
 }
+nav button {
+    float:right;
+    background-color: #F1F1F1;
+    color: #696969;
+    border-radius: 6px;
+    border: 1px solid #696969;
 
-.logo{
-    color: black;
 }
-
+ button:hover {
+    background-color:#708090; 
+    color: white;
+}
 /* Change color on hover */
 nav a:hover {
     color: black;
     
 }
 
-/* Create three unequal columns that floats next to each other */
+
 .column {
     float: left;
     padding: 10px;
@@ -60,32 +65,27 @@ nav a:hover {
 }
 
 /* Clear floats after the columns */
-.row:after {
+main:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column.side, .column.middle {
-        width: 100%;
-    }
-}
+
+
 div.gallery {
-    margin: 5px;
+    
     display: inline-block;
     vertical-align: top;
-    width: 180px;
+    width: 31%;
 }
 
-div.gallery:hover {
-    background-color: #f1f1f1;
-}
+
 
 div.gallery img {
-    width: 100%;
+    width: 70%;
     height: auto;
+    margin-left: 15%;
 }
 
 div.desc {
@@ -98,4 +98,3 @@ footer {
     background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
-}
