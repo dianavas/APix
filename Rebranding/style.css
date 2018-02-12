@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background-image: url("crossword.png");
 }
 
 header{
@@ -112,7 +113,7 @@ div.desc {
 
 /* Style the footer */
 footer {
-    background-color:white;
+    background-color:#F1F1F1;
     padding-top: 2%;
     padding-bottom: 0.5%;
     text-align: center;
@@ -132,5 +133,6 @@ button.tryon{
     color:grey;
 }
 
+/* Removes blue outline of button */
 button:focus {outline:0;}
 
