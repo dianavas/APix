@@ -1,5 +1,5 @@
 function callAssistant(){
-	document.getElementById('sideNote').innerHTML = 'Hello there! Why don\'t you pick something that looks promising?';
+	document.getElementById('callAssis').innerHTML = 'Hello there! Why don\'t you pick something that looks promising?';
 }
 
 function myAssistantAdviceWomen() {
@@ -131,5 +131,38 @@ function myAssistantAdviceMale() {
 		document.getElementById('callAssisHeader').innerHTML = 'Yea, you\'re a guy. Still, it never hurts having this one in your closet!';
 		document.getElementById('callAssisPara').innerHTML = 'Go ahead...See how it would look to be sun-worry-wrinkle-free!';
         break;
+	}
+}
+
+function assisInFittingRoom(){
+	var r = Math.floor((Math.random() * 100) + 1);
+	switch (r%9) {
+	case 0:
+		document.getElementById('callAssisHeader').innerHTML = 'WHOA! You look magnificent. Fits you like a glove!';
+		break;
+	case 1:
+		document.getElementById('callAssisHeader').innerHTML = 'Well, they say it\'s inner beauty that counts...';
+		break;
+	case 2:
+		document.getElementById('callAssisHeader').innerHTML = 'I should just take my glasses off for this one... Now, much better!';
+		break;
+	case 3:
+		document.getElementById('callAssisHeader').innerHTML = 'I would consider modelling if I were you!';
+		break;
+	case 4:
+		document.getElementById('callAssisHeader').innerHTML = 'This color suits you. Brilliant.';
+		break;
+	case 5:
+		document.getElementById('callAssisHeader').innerHTML = 'I\'m here if you need anything.';
+		break;
+	case 6:
+		document.getElementById('callAssisHeader').innerHTML = 'Who am I to judge? You should ask a real person\'s opinion.';
+		break;
+	case 7:
+		document.getElementById('callAssisHeader').innerHTML = 'Your head is too big for this. Do you want me to see if we have a bigger size? Haha.';
+		break;
+	case 8:
+		document.getElementById('callAssisHeader').innerHTML = 'I\'m speachless.';
+		break;
 	}
 }

@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background-image: url("crossword.png");
+  background-image: url("./poze/Pattern/crossword.png");
 }
 
 header{
@@ -89,6 +89,8 @@ div.gallery {
     display: inline-block;
     vertical-align: top;
     width: 31%;
+    /*background: no-repeat;
+    background-size: 100%;*/
 
     
 }
@@ -130,6 +132,12 @@ button.tryon{
 }
 
 #callAssis{
+    color:grey;
+}
+#callAssisHeader{
+    color:grey;
+}
+#callAssisPara{
     color:grey;
 }
 
