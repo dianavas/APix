@@ -10,3 +10,5 @@ https://docs.unity3d.com/Manual/PlatformDependentCompilation.html
 https://superuser.com/questions/836832/how-can-i-enable-webgl-in-my-browser
 
 Status: Only works in Unity App
+
+ ARToolkit doesn't support WebGL?
