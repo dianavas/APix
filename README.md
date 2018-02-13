@@ -11,6 +11,10 @@ https://github.com/dharmeshkakadia/awesome-AR
 
 
 Approaches tried:
-- Unity + ARToolkit
-- Argon.js
-- Three.js + Aruco http://jeromeetienne.github.io/slides/augmentedrealitywiththreejs
+- Unity + ARToolkit(failed due to WebGL incompatibility)
+- Argon.js(install problems)
+- Three.js + Aruco http://jeromeetienne.github.io/slides/augmentedrealitywiththreejs(getMedia function issue)
+- aFrame + ARToolkit + Three.js + nice lady (FINAL VERSION)
+https://github.com/aframevr/aframe
+https://aframe.io/blog/arjs/
+https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf
