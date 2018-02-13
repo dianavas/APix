@@ -6,7 +6,7 @@ function myAssistantAdviceWomen() {
 	var r = Math.floor((Math.random() * 100) + 1);
 	switch (r%6) {
     case 0:
-        document.getElementById("adv1").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv1").style.backgroundImage = "url('fractal.png')";
 		document.getElementById('callAssisHeader').innerHTML = 'Your inner new-yorker fashionista deepest desire.';
 		document.getElementById('callAssisPara').innerHTML = 'Life is too short to dress boring.';
 		document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
@@ -16,7 +16,7 @@ function myAssistantAdviceWomen() {
 		document.getElementById("adv6").style.backgroundImage = "url('slider-gradient.png')";
         break;
     case 1:
-        document.getElementById("adv2").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv2").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv3").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv4").style.backgroundImage = "url('slider-gradient.png')";
@@ -26,7 +26,7 @@ function myAssistantAdviceWomen() {
 		document.getElementById('callAssisPara').innerHTML = 'Worn by Queen Mary the 5th at a Charity Ball, this dimamond crown will never be out of style.';
         break;
     case 2:
-        document.getElementById("adv3").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv3").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv4").style.backgroundImage = "url('slider-gradient.png')";
@@ -36,7 +36,7 @@ function myAssistantAdviceWomen() {
 		document.getElementById('callAssisPara').innerHTML = 'Or if you\'re feeling nostalgic. Or you binge-watch Downton Abbey in your spare time';
         break;
     case 3:
-        document.getElementById("adv4").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv4").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv3").style.backgroundImage = "url('slider-gradient.png')";
@@ -46,7 +46,7 @@ function myAssistantAdviceWomen() {
 		document.getElementById('callAssisPara').innerHTML = 'This is definitely a statement piece. Fitted for parties, fancy dinners, horse racing watching or just shocking your friends and family.';
         break;
     case 4:
-        document.getElementById("adv5").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv5").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv4").style.backgroundImage = "url('slider-gradient.png')";
@@ -56,7 +56,7 @@ function myAssistantAdviceWomen() {
 		document.getElementById('callAssisPara').innerHTML = 'Now, before you go to your stylist and ask him to make your hair look like this, see here how it would look on you. It\'s not for everyone, you know?';
         break;
     case 5:
-        document.getElementById("adv6").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv6").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv4").style.backgroundImage = "url('slider-gradient.png')";
@@ -72,7 +72,7 @@ function myAssistantAdviceMale() {
 	var r = Math.floor((Math.random() * 100) + 1);
 	switch (r%6) {
     case 0:
-        document.getElementById("adv1").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv1").style.backgroundImage = "url('fractal.png')";
 		document.getElementById('callAssisHeader').innerHTML = 'Passionate of racing? Say no more.';
 		document.getElementById('callAssisPara').innerHTML = 'Who said that being safe isn\'t sexy.';
 		document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
@@ -82,7 +82,7 @@ function myAssistantAdviceMale() {
 		document.getElementById("adv6").style.backgroundImage = "url('slider-gradient.png')";
         break;
     case 1:
-        document.getElementById("adv2").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv2").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv3").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv4").style.backgroundImage = "url('slider-gradient.png')";
@@ -92,7 +92,7 @@ function myAssistantAdviceMale() {
 		document.getElementById('callAssisPara').innerHTML = 'Neither are army-green beanies. They never go out of style.';
         break;
     case 2:
-        document.getElementById("adv3").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv3").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv4").style.backgroundImage = "url('slider-gradient.png')";
@@ -102,7 +102,7 @@ function myAssistantAdviceMale() {
 		document.getElementById('callAssisPara').innerHTML = 'We get some Indiana Jones, adventure vibes with this, don\'t you?';
         break;
     case 3:
-        document.getElementById("adv4").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv4").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv3").style.backgroundImage = "url('slider-gradient.png')";
@@ -112,7 +112,7 @@ function myAssistantAdviceMale() {
 		document.getElementById('callAssisPara').innerHTML = 'You\'re welcome!';
         break;
     case 4:
-        document.getElementById("adv5").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv5").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv4").style.backgroundImage = "url('slider-gradient.png')";
@@ -122,7 +122,7 @@ function myAssistantAdviceMale() {
 		document.getElementById('callAssisPara').innerHTML = 'I suggest you don\'t enquire more if you wanna keep your head.';
         break;
     case 5:
-        document.getElementById("adv6").style.backgroundImage = "url('wow.png')";
+        document.getElementById("adv6").style.backgroundImage = "url('fractal.png')";
         document.getElementById("adv2").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv1").style.backgroundImage = "url('slider-gradient.png')";
 		document.getElementById("adv4").style.backgroundImage = "url('slider-gradient.png')";
